@@ -28,7 +28,7 @@ class AssistantController:
 
     def process(self, user_text):
         """Decide whether to answer locally or ask GPT"""
-        # ✅ Built-in commands
+        # Built-in commands
         if "time" in user_text.lower():
             now = datetime.now().strftime("%I:%M %p")
             return f"The current time is {now}."
@@ -36,7 +36,7 @@ class AssistantController:
             today = datetime.now().strftime("%A, %B %d, %Y")
             return f"Today's date is {today}."
 
-        # ✅ Otherwise use GPT
+        # Otherwise use GPT
         self.chat_history.append({"role": "user", "content": user_text})
 
         try:
