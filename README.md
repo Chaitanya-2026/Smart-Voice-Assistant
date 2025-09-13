@@ -21,10 +21,10 @@ A Python-based Smart Voice Assistant with Speech Recognition, GPT-powered respon
 
 🖼️ GUI Preview
 
-![Voice Assistant GUI](Smart Assisstant Interface.png)
+![Voice Assistant GUI](screenshot.png)
 
 
-🛠️ Installation
+# 🛠️ Installation
 
 1️⃣ Clone the Repository
 
@@ -53,7 +53,7 @@ export OPENAI_API_KEY="your_api_key_here" # Linux / Mac
 
 python main.py
 
-📂 Project Structure
+# 📂 Project Structure
 
 📦 VoiceAssistant
  ┣ 📜 main.py              # Entry point
