@@ -27,34 +27,36 @@ A Python-based Smart Voice Assistant with Speech Recognition, GPT-powered respon
 # 🛠️ Installation
 
 1️⃣ Clone the Repository
-
+```
 git clone https://github.com/Chaitanya-2026/voice-assistant.git
 
 cd voice-assistant
-
+```
 2️⃣ Create a Virtual Environment (Recommended)
-
+```
 python -m venv venv
 source venv/bin/activate   # On Linux/Mac
 
 venv\Scripts\activate      # On Windows
-
+```
 3️⃣ Install Dependencies
-
+```
 pip install -r requirements.txt
-
+```
 4️⃣ Set Your OpenAI API Key
-
+```
 setx OPENAI_API_KEY "your_api_key_here"   # Windows (cmd)
 
 export OPENAI_API_KEY="your_api_key_here" # Linux / Mac
+```
 
 ▶️ Run the Project
-
+```
 python main.py
+```
 
 # 📂 Project Structure
-
+```
 📦 VoiceAssistant
  ┣ 📜 main.py              # Entry point
  ┣ 📜 gui.py               # GUI interface
@@ -62,7 +64,7 @@ python main.py
  ┣ 📜 requirements.txt     # Dependencies
  ┣ 📜 README.md            # Project documentation
  ┗ 📜 .gitignore           # Ignored files
-
+```
 
 
 ⚙️ Requirements
@@ -83,9 +85,9 @@ openai
 tkinter (built-in)
 
 Install all with:
-
+```
 pip install -r requirements.txt
-
+```
 📜 License
 
 This project is licensed under the MIT License.
